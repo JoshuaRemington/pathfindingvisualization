@@ -33,7 +33,7 @@ let currentlyDisplaying = false;
 let currentAlgorithm = 'Dijkstra\'s Algorithm';
 let currentAlgorithmText = 'Dijkstra\'s Algorithm';
 let isWeightedAlgo = 'weighted';
-let doesGaruntee = 'garuntees';
+let doesGuarantee = 'guarantee';
 let instant = false;
 //const imageTest = {width: '50px', height: '50px'};
 
@@ -490,15 +490,15 @@ export default class pathfindingVisualizer extends Component {
         currentAlgorithm = text;  
         switch(currentAlgorithm) {
             case 'Dijkstra\'s Algorithm': currentAlgorithmText = 'Dijkstra\'s Algorithm'; 
-            isWeightedAlgo = 'weighted'; doesGaruntee = 'garuntees'; break;
+            isWeightedAlgo = 'weighted'; doesGuarantee = 'guarantees'; break;
             case 'A*': currentAlgorithmText = 'A* Search'; 
-            isWeightedAlgo = 'weighted'; doesGaruntee = 'garuntees'; break;
+            isWeightedAlgo = 'weighted'; doesGuarantee = 'guarantees'; break;
             case 'Gbfs': currentAlgorithmText = 'Greedy Best-first Search'; 
-            isWeightedAlgo = 'weighted'; doesGaruntee = 'does not garuntee'; break;
+            isWeightedAlgo = 'weighted'; doesGuarantee = 'does not guarantee'; break;
             case 'Bfs': currentAlgorithmText = 'Breath-first Search'; 
-            isWeightedAlgo = 'unweighted'; doesGaruntee = 'garuntees'; break;
+            isWeightedAlgo = 'unweighted'; doesGuarantee = 'guarantees'; break;
             case 'Dfs': currentAlgorithmText = 'Depth-first Search'; 
-            isWeightedAlgo = 'unweighted'; doesGaruntee = 'does not garuntees'; break;
+            isWeightedAlgo = 'unweighted'; doesGuarantee= 'does not guarantee'; break;
             default: return;
         }
     }
@@ -579,7 +579,7 @@ export default class pathfindingVisualizer extends Component {
             <div className="txt"><img className="img" src={Weight} alt="Weight"></img>Weight Node</div>
             <div className="txt"><img className="img" src={visited1} alt="Visited1"></img><img className="img" src={visited2} alt="Visited2"></img>Visited Nodes</div>
             <div className="txt"><img className="img" src={shortestPath} alt="Shortest"></img>Shortest Path</div>
-            <div className='text'>{currentAlgorithmText} is <strong>{isWeightedAlgo}</strong> and <strong>{doesGaruntee}</strong> the shortest path!</div>
+            <div className='text'>{currentAlgorithmText} is <strong>{isWeightedAlgo}</strong> and <strong>{doesGuarantee}</strong> the shortest path!</div>
             <div className="grid">
                 {grid.map((row, rowIdx) => {
                     return (

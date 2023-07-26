@@ -65,18 +65,18 @@ export default class Tutorial extends Component {
                     <div className="simple-text-tutorial">Click the Algorithms drop-down menu to choose an algorithm</div>
                     <div className="simple-text-tutorial" style={{fontSize: "1.5vh"}}>Some of the algorithms are 
                     <strong> weighted</strong> and others are <strong> unweighted</strong>. Weighted algorithms take weighted nodes into account, 
-                    whereas unweighted algorithms do not. Also note that some algorithms do not garuntee the shortest path between the two nodes.</div>
+                    whereas unweighted algorithms do not. Also note that some algorithms do not guarantee the shortest path between the two nodes.</div>
                     <img className="image-tutorial" src={algorithmDropdown} alt="algorithmDropdown" style={{width: '12vh', height: '18vh'}}></img>
                     </div>
                 }
                 {currentPage === 3 &&
                     <div className="title-text-tutorial">Algorithm Descriptions
                     <div className="simple-text-tutorial" style={{fontSize: "1.5vh"}}>
-                        <strong>Dijkstra's Algorithm</strong> (weighted): one of the first and most popular pathfinding algorithms; garuntees the shortest path. <br />
-                        <strong>A* Search</strong> (weighted): One of the best pathfinding algorithms; uses hueristics to garuntee the shortest path faster than dijkstras. <br/>
-                        <strong>Greedy Best-first Search</strong> (weighted): uses a faster hueristic algorithm than A*; but does not garuntee the shortest path <br/>
-                        <strong>Breath-first Search</strong> (unweighted): A good algorithm for unweighted pathfinding; garuntees the shortest path<br/>
-                        <strong>Depth First Search</strong> (unweighted): A terrible algorithm for pathfinding; does not garuntee the shortest path <br/>
+                        <strong>Dijkstra's Algorithm</strong> (weighted): one of the first and most popular pathfinding algorithms; guarantees the shortest path. <br />
+                        <strong>A* Search</strong> (weighted): One of the best pathfinding algorithms; uses hueristics to guarantee the shortest path faster than dijkstras. <br/>
+                        <strong>Greedy Best-first Search</strong> (weighted): uses a faster hueristic algorithm than A*; but does not guarantee the shortest path <br/>
+                        <strong>Breath-first Search</strong> (unweighted): A good algorithm for unweighted pathfinding; guarantees the shortest path<br/>
+                        <strong>Depth First Search</strong> (unweighted): A terrible algorithm for pathfinding; does not guarantee the shortest path <br/>
                     </div>
                     </div>
                 }
