@@ -1,0 +1,261 @@
+.node {
+  width: 1.8vw;
+  height: 1.8vw;
+  outline: .1px solid skyblue;
+  position: relative;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1500px) {
+.node {
+  width: 27px;
+  height: 27px;
+}
+}
+
+.node-finish {
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-finish-visited {
+  background-color: rgb(0, 255, 255);
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-finish-visited-other-color {
+  background-color: rgb(0, 252, 176);
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-finish-shortest {
+  background-color: rgb(183, 0, 255);
+  animation-name: creatingShortestPath;
+  animation-duration: 1s;
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-finish-shortest-instant {
+  background-color: rgb(183, 0, 255);
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-start {
+  background-image: url(Start.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-start-visited {
+  background-color: rgb(0, 255, 255);
+  background-image: url(Start.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-start-visited-other-color {
+  background-color: rgb(0, 252, 176);
+  background-image: url(Start.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-start-shortest {
+  background-color: rgb(183, 0, 255);
+  animation-name: creatingShortestPath;
+  animation-duration: 1s;
+  background-image: url(Start.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-start-shortest-instant {
+  background-color: rgb(183, 0, 255);
+  background-image: url(Start.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@keyframes visitingNode {
+  0% {background-color: rgb(0, 162, 255);
+      transform: scale(0.3);}
+  25% {background-color: rgb(0, 183, 255);}
+  50% {background-color: aqua;}
+  75% {background-color: rgb(0, 255, 221);
+      transoform: scale(0.6);}
+  100% {background-color: rgb(0,255,255);
+      transform: scale(1);}
+}
+.node-visited {
+  background-color: rgb(0, 255, 255);
+  animation-name: visitingNode;
+  animation-duration: 1.5s;
+}
+
+.node-visited-instant {
+  background-color: rgb(0, 255, 255);
+}
+
+@keyframes visitingNodeOtherColor {
+  0% {background-color: rgb(5, 247, 25);
+      transform: scale(0.3);}
+  25% {background-color: rgb(44, 173, 102);}
+  50% {background-color: rgb(19, 129, 47);}
+  75% {background-color: rgb(51, 187, 124);
+      transoform: scale(0.6);}
+  100% {background-color: rgb(0, 252, 176);
+      transform: scale(1);}
+}
+.node-visited-other-color {
+  background-color: rgb(0, 252, 176);
+  animation-name: visitingNodeOtherColor;
+  animation-duration: 1.5s;
+}
+
+.node-visited-instant-other-color {
+  background-color: rgb(0, 252, 176);
+}
+
+
+@keyframes creatingShortestPath {
+  0% {background-color: rgb(131, 3, 182);
+      transform: scale(0.3);}
+  25% {background-color: rgb(118, 28, 153);}
+  50% {background-color:   rgb(208, 97, 252);}
+  100% {background-color: rgb(183, 0, 255);
+      transform: scale(1);}
+}
+.node-shortest-path {
+  background-color: rgb(183, 0, 255);
+  animation-name: creatingShortestPath;
+  animation-duration: 1s;
+}
+
+.node-shortest-path-instant {
+  background-color: rgb(183, 0, 255);
+}
+
+@keyframes creatingWall {
+  0% {background-color: rgb(67, 71, 75);
+    transform: scale(0.3);}
+  75% {transform: scale(0.75)}
+  100% {transform: scale(1);}
+}
+
+.node-wall {
+  background-color: rgb(67, 71, 75);
+  animation-name: creatingWall;
+  animation-duration: 0.25s;
+}
+
+.node-weight {
+  background-image: url(Weight.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-weight-visited {
+  background-image: url(Weight.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(0, 255, 255);
+  animation-name: visitingNode;
+  animation-duration: 1.5s;
+}
+
+.node-weight-visited-other-color {
+  background-image: url(Weight.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(0, 252, 176);
+  animation-name: visitingNodeOtherColor;
+  animation-duration: 1.5s;
+}
+
+.node-weight-shortest {
+  background-image: url(Weight.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(183, 0, 255);
+  animation-name: creatingShortestPath;
+  animation-duration: 1s;
+}
+
+.node-weight-shortest-instant {
+  background-image: url(Weight.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(183, 0, 255);
+}
+
+.node-weight-visited-instant {
+  background-image: url(Weight.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(0, 255, 255);
+}
+
+.node-weight-visited-instant-other-color {
+  background-image: url(Weight.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(0, 252, 176);
+}
+
+.node-target {
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.node-target-visited {
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(0, 255, 255);
+}
+
+.node-target-visited-other-color {
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(0, 252, 176);;
+}
+
+.node-target-shortest {
+  background-image: url(Target.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(0, 255, 255);
+  background-color: rgb(183, 0, 255);
+}

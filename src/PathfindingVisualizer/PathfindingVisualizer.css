@@ -1,0 +1,36 @@
+.grid {
+  margin: 20px 0 0;
+}
+
+.text {
+  color: #4D6D9A;
+  left: 5px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 250;
+  line-height: 24px;
+  margin: 100px 0 0;
+}
+
+.img {
+  position: relative;
+  height: 2vh;
+  width: 2vh;
+  margin-top: 10px;
+  transform: translateY(20%);
+  margin-right: 3px;
+}
+
+.txt {
+  display: border-box;
+  left: 5px;
+  color: #4D6D9A;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px;
+  margin-left: 20px;
+  font-size: 25px;
+  float: left;
+}
+
