@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pathfindingvisualization/static/css/main.23ea9af0.css",
+    "main.js": "/pathfindingvisualization/static/js/main.826a6b26.js",
+    "static/js/787.42b95960.chunk.js": "/pathfindingvisualization/static/js/787.42b95960.chunk.js",
+    "static/media/PathfindingVisualizerLogo.png": "/pathfindingvisualization/static/media/PathfindingVisualizerLogo.b758fd99a5374fa21612.png",
+    "static/media/movingNodes.gif": "/pathfindingvisualization/static/media/movingNodes.c1df6e460e3c1104fe57.gif",
+    "static/media/Target.png": "/pathfindingvisualization/static/media/Target.3e52cc004b094455b788.png",
+    "static/media/pathImage.png": "/pathfindingvisualization/static/media/pathImage.8883e5b899d457309271.png",
+    "static/media/Start.png": "/pathfindingvisualization/static/media/Start.94d795d143ef9df1b1ce.png",
+    "static/media/AlgorithmDropdownForTutorial.jpg": "/pathfindingvisualization/static/media/AlgorithmDropdownForTutorial.49c8efcdfede4fe9161a.jpg",
+    "static/media/MoreFeatures.jpg": "/pathfindingvisualization/static/media/MoreFeatures.d0860234b12136823997.jpg",
+    "index.html": "/pathfindingvisualization/index.html",
+    "main.23ea9af0.css.map": "/pathfindingvisualization/static/css/main.23ea9af0.css.map",
+    "main.826a6b26.js.map": "/pathfindingvisualization/static/js/main.826a6b26.js.map",
+    "787.42b95960.chunk.js.map": "/pathfindingvisualization/static/js/787.42b95960.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ea9af0.css",
+    "static/js/main.826a6b26.js"
+  ]
+}
