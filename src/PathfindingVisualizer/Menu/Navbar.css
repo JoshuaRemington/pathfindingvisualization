@@ -78,7 +78,6 @@
 .dropdown {
     display: block;
     position: absolute;
-    background: rgb(67, 71, 75);
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
