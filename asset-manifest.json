@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pathfindingvisualization/static/css/main.23ea9af0.css",
+    "main.css": "/pathfindingvisualization/static/css/main.8b0e907c.css",
     "main.js": "/pathfindingvisualization/static/js/main.2cdc7e9e.js",
     "static/js/787.42b95960.chunk.js": "/pathfindingvisualization/static/js/787.42b95960.chunk.js",
     "static/media/PathfindingVisualizerLogo.png": "/pathfindingvisualization/static/media/PathfindingVisualizerLogo.b758fd99a5374fa21612.png",
@@ -11,12 +11,12 @@
     "static/media/AlgorithmDropdownForTutorial.jpg": "/pathfindingvisualization/static/media/AlgorithmDropdownForTutorial.49c8efcdfede4fe9161a.jpg",
     "static/media/MoreFeatures.jpg": "/pathfindingvisualization/static/media/MoreFeatures.d0860234b12136823997.jpg",
     "index.html": "/pathfindingvisualization/index.html",
-    "main.23ea9af0.css.map": "/pathfindingvisualization/static/css/main.23ea9af0.css.map",
+    "main.8b0e907c.css.map": "/pathfindingvisualization/static/css/main.8b0e907c.css.map",
     "main.2cdc7e9e.js.map": "/pathfindingvisualization/static/js/main.2cdc7e9e.js.map",
     "787.42b95960.chunk.js.map": "/pathfindingvisualization/static/js/787.42b95960.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ea9af0.css",
+    "static/css/main.8b0e907c.css",
     "static/js/main.2cdc7e9e.js"
   ]
 }
